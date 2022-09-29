@@ -1,0 +1,16 @@
+.circle {
+
+    display: inline-block;
+
+    height: 100vh;
+    width: 100vh;
+   
+    border-radius: 50%;
+
+    z-index: -10;
+
+    position: absolute;
+
+    background-color: rgba(120,174,174,255);
+
+}
