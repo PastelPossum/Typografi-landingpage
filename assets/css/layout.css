@@ -17,6 +17,63 @@
     grid-row: repeat(8, calc(100%/8))/auto;
 }
 
+.venue {
+
+    grid-row: 1/span 3;
+    grid-column: 1/span 3;
+
+}
+
+.event-time {
+
+    grid-row: 2/span 2;
+    grid-column: 5;
+
+}
+
+.event-name {
+
+    grid-row: 1/span 3;
+    grid-column: 6/span 3;
+
+}
+
+
+.event-name-introduction {
+
+    grid-row: 1/span 3;
+    grid-column: 6/span 3;
+
+}
+
+.subtitle {
+
+    grid-row: 4;
+    grid-column: 1/span 8;
+
+}
+
+.subjects-right {
+
+    grid-row: 5/span 3;
+    grid-column: 1;
+
+}
+
+.link-subjects-right {
+
+    grid-row: 5/span 3;
+    grid-column: 8;
+
+}
+
+.details {
+
+    grid-row: 5/span 2;
+    grid-column: 2/span 6;
+
+}
+
 /* ------- FONT DESIGN AND STYLE --------- */
 
 /* LINKS */
@@ -108,9 +165,24 @@ ul {
 
 }
 
-.module {
+.module,
+.bigger-font
+ {
 
     font-size: 2.5em;
+
+}
+
+.goodbye {
+
+    font-size: 1.5em;
+
+}
+
+.event-address,
+.event-contact {
+
+    font-size: 1.3em;
 
 }
 
@@ -123,7 +195,11 @@ ul {
 
 }
 
-.venue {
+.venue,
+.bigger-font,
+.goodbye,
+.event-address,
+.event-contact {
 
     font-weight: bold
 
@@ -135,4 +211,17 @@ ul {
 
 }
 
+/* ---------- BORDER STYLING ---------- */
 
+.venue-time {
+
+    border-left: 0.1mm solid black;
+    border-right: 0.1mm solid black;
+    
+}
+
+.container {
+
+    border-top: 1.5mm double black;
+
+}
