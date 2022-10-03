@@ -1,0 +1,15 @@
+.venue-time {
+    display: flex;
+    align-items: center;
+
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+    font-size: 1.5em;
+
+    border-left: 0.1mm solid black;
+    border-right: 0.1mm solid black;
+
+    padding: 1em;
+
+  }

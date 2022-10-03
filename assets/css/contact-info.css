@@ -1,0 +1,33 @@
+.contact-info {
+    
+    display: grid;
+
+    grid-row: 8;
+    grid-column: 1/span 9;
+
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+
+}
+
+.contact-info > p {
+
+    padding: 0.5em
+
+}
+
+.event-address {
+
+    grid-row: 1;
+    grid-column: 1;
+
+    border-right: thin solid black;
+
+}
+
+.event-contact {
+
+    grid-row: 1;
+    grid-column: 2;
+
+}

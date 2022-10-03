@@ -1,3 +1,6 @@
 @import url('variables.css');
 @import url('layout.css');
 @import url('base.css');
+@import url('circle.css');
+@import url('venue-time.css');
+@import url('contact-info.css');
