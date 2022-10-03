@@ -1,0 +1,138 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+    text-transform: uppercase;
+
+}
+
+    /* -------------- GRIDS ----------- */
+
+.container {
+
+    display: grid;
+
+    grid-row: repeat(8, calc(100%/8))/auto;
+}
+
+/* ------- FONT DESIGN AND STYLE --------- */
+
+/* LINKS */
+
+.subjects-right, 
+.link-subjects-right {
+
+list-style: none;
+
+}
+
+.venue,
+.lowercase,
+.goodbye,
+.event-address,
+.event-contact,
+ul {
+
+    text-transform: none;
+
+}
+
+.link-subjects-right li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.link-subjects-right li a:hover {
+
+    color: rgba(120,174,174,255);
+
+}
+
+
+/* FONT SIZING / STYLE / PLACEMENT */
+
+.venue {
+
+    font-size: 1.4em;
+
+}
+
+.venue-time {
+
+    font-size: 1.5em;
+
+}
+
+
+.headline {
+
+    font-size: 6em;
+    text-align: center;
+
+}
+
+#cursive {
+
+    font-style: italic;
+
+}
+
+.event-name,
+.subtitle,
+.event-name-introduction {
+
+    font-size: 2.5em;
+
+}
+
+.subjects-right,
+.link-subjects-right {
+
+    font-size: 1.8em;
+
+   font-style: italic;
+    text-align: center;
+    
+}
+
+.subjects-right li,
+.link-subjects-right li{
+
+    font-size: 0.5em;
+    
+    font-style:normal
+
+}
+
+.module {
+
+    font-size: 2.5em;
+
+}
+
+/* FONT WEIGHT */
+
+.event-name,
+.subtitle {
+
+    font-weight: 700;
+
+}
+
+.venue {
+
+    font-weight: bold
+
+}
+
+.module {
+
+    font-weight: 100;
+
+}
+
+
