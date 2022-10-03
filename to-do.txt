@@ -2,10 +2,13 @@
     - background colour ✅
 
 !! Set up assets ✅
-    - redo so everything is in the correct folder
+    - redo so everything is in the correct folder ✅
 
 !! Set up fonts ✅
-    - put them on the correct sections ✅
+    - put them on the correct sections 
+    - style the font and make it look pretty
+    - see if you can make less classes and IDs
+
 
 !! Make grid work
     - set everything in the correct place (span?)
@@ -13,8 +16,8 @@
 
 !! Make the circle ✅
     - put it in the grid the correct way
-    - Make sure it is in the background and not above or over the text
+    - Make sure it is in the background and not above or over the text ✅
 
 !! Style the links ✅
-    - remove purple line 
-    - change colour when hovering
+    - remove purple line ✅
+    - change colour when hovering ✅
