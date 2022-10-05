@@ -1,0 +1,13 @@
+.subtitle {
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-weight: 700;
+
+    grid-row: 3/4;
+    grid-column: 1/span 10;
+
+    border-top: var(--border-thin);
+    border-bottom: var(--border-thin);
+}

@@ -1,6 +1,10 @@
 .venue-time {
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    grid-row: 1/span 2;
+    grid-column: 4/span 1;
 
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -8,5 +12,8 @@
     font-size: 1.5em;
 
     padding: 1em;
+    
+    border-left: 0.1mm solid black;
+    border-right: 0.1mm solid black;
 
   }

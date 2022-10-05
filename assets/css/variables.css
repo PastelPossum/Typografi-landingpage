@@ -1,0 +1,14 @@
+:root {
+
+    --base-color: #d0d2cd;
+    --accent-color: #75adad;
+    --dark-color: black;
+
+
+    --border-thin: thin solid black;
+
+
+    --base-font: 'Cormorant', serif;
+    --accent-font: 'Dancing Script', cursive;
+ 
+}

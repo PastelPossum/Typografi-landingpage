@@ -31,3 +31,10 @@
     grid-column: 2;
 
 }
+.event-address, .event-contact {
+
+    text-align: center;
+
+    font-size: 1.1em;
+
+}

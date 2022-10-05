@@ -1,0 +1,64 @@
+.link-subjects-right,
+.subjects-left {
+
+    margin: 1em;
+    padding-bottom: 1.5em;
+
+    list-style: none;
+
+}
+
+.subjects-left {
+
+    grid-row: 4/span 3;
+    grid-column: 1;
+
+}
+
+.link-subjects-right {
+
+    grid-row: 4/span 3;
+    grid-column: 9/span 1;
+
+}
+
+.link-subjects-right li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.link-subjects-right li a:hover {
+
+    color: rgba(120,174,174,255);
+
+}
+
+.subjects-left,
+.link-subjects-right {
+
+    font-size: 1em;
+
+   font-style: italic;
+    text-align: center;
+    
+}
+
+.subjects-left li,
+.link-subjects-right li{
+
+    font-size: 0.8em;
+    
+    font-style:normal
+
+}
+
+.subjects-left > .list-title,
+.link-subjects-right > .list-titleæ {
+
+    font-weight: 600;
+    font-size: 1.2em;
+    
+
+}

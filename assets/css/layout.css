@@ -8,81 +8,32 @@
 
 }
 
-    /* -------------- GRIDS ----------- */
+main {
+
+    max-width: 1080px;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    gap: 3rem;
+
+
+}
+
 
 .container {
 
     display: grid;
-
     grid-row: repeat(8, calc(100%/8))/auto;
-}
 
-.venue {
-
-    grid-row: 1/span 3;
-    grid-column: 1/span 3;
-
-}
-
-.event-time {
-
-    grid-row: 2/span 2;
-    grid-column: 5;
-
-}
-
-.event-name {
-
-    grid-row: 1/span 3;
-    grid-column: 6/span 3;
-
-}
-
-
-.event-name-introduction {
-
-    grid-row: 1/span 3;
-    grid-column: 6/span 3;
-
-}
-
-.subtitle {
-
-    grid-row: 4;
-    grid-column: 1/span 8;
-
-}
-
-.subjects-right {
-
-    grid-row: 5/span 3;
-    grid-column: 1;
-
-}
-
-.link-subjects-right {
-
-    grid-row: 5/span 3;
-    grid-column: 8;
-
-}
-
-.details {
-
-    grid-row: 5/span 2;
-    grid-column: 2/span 6;
-
-}
-
-/* ------- FONT DESIGN AND STYLE --------- */
-
-/* LINKS */
-
-.subjects-right, 
-.link-subjects-right {
-
-list-style: none;
-
+    border-top: thick double black;
 }
 
 .venue,
@@ -96,132 +47,7 @@ ul {
 
 }
 
-.link-subjects-right li a {
-
-    text-decoration: none;
-    color: black;
-
-}
-
-.link-subjects-right li a:hover {
-
-    color: rgba(120,174,174,255);
-
-}
 
 
-/* FONT SIZING / STYLE / PLACEMENT */
-
-.venue {
-
-    font-size: 1.4em;
-
-}
-
-.venue-time {
-
-    font-size: 1.5em;
-
-}
 
 
-.headline {
-
-    font-size: 6em;
-    text-align: center;
-
-}
-
-#cursive {
-
-    font-style: italic;
-
-}
-
-.event-name,
-.subtitle,
-.event-name-introduction {
-
-    font-size: 2.5em;
-
-}
-
-.subjects-right,
-.link-subjects-right {
-
-    font-size: 1.8em;
-
-   font-style: italic;
-    text-align: center;
-    
-}
-
-.subjects-right li,
-.link-subjects-right li{
-
-    font-size: 0.5em;
-    
-    font-style:normal
-
-}
-
-.module,
-.bigger-font
- {
-
-    font-size: 2.5em;
-
-}
-
-.goodbye {
-
-    font-size: 1.5em;
-
-}
-
-.event-address,
-.event-contact {
-
-    font-size: 1.3em;
-
-}
-
-/* FONT WEIGHT */
-
-.event-name,
-.subtitle {
-
-    font-weight: 700;
-
-}
-
-.venue,
-.bigger-font,
-.goodbye,
-.event-address,
-.event-contact {
-
-    font-weight: bold
-
-}
-
-.module {
-
-    font-weight: 100;
-
-}
-
-/* ---------- BORDER STYLING ---------- */
-
-.venue-time {
-
-    border-left: 0.1mm solid black;
-    border-right: 0.1mm solid black;
-    
-}
-
-.container {
-
-    border-top: 1.5mm double black;
-
-}
