@@ -48,7 +48,40 @@ ul {
 
 }
 
+/* @media screen and (max-width:600px){
+
+    .venue, .venue-time, .event-name{
+        font-size: 1em;
+        padding: 1em;
+    }
 
 
+    .event-name::first-line, .subtitle{
+        font-size: 1.5em;
+    }
 
+    /* .subject-left{
+        grid-row: 6;
+        grid-column: 1/span 8;
+    }
+    .link-subjects-right{
+        grid-row: 7;
+        grid-column: 1/span 8; */
+    /* }
 
+    .details, .circle{
+        grid-row: 5/span 1;
+        grid-column: 1/span 8;
+
+        border-radius: 0;
+        border: 0;
+    }
+
+    .event-adress{
+        grid-row: 1;
+        grid-column: 1/span 2;
+
+        border-right: 0;
+   
+    }
+     */
