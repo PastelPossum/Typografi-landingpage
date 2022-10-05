@@ -1,13 +1,15 @@
 .subtitle {
 
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 1.2em;
+
     text-align: center;
     font-weight: 700;
+    font-size: 3em;
 
-    grid-row: 3/4;
+    grid-row: 3;
     grid-column: 1/span 10;
 
     border-top: var(--border-thin);
     border-bottom: var(--border-thin);
 }
+

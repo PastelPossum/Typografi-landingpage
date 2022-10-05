@@ -1,15 +1,16 @@
 .circle {
 
-    grid-row: 2/7;
-    grid-column: 1/10;
+    grid-row: 1/7;
+    grid-column: 1/11;
 
     height: 80vh;
     aspect-ratio: 1/1;
-    border-radius: 50%;
+    border-radius: 100%;
 
     z-index: -10;
 
-    margin: 0 auto;
+    align-self: center;
+    justify-self: center;
 
     background-color: rgba(120,174,174,255);
 

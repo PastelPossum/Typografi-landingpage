@@ -5,9 +5,9 @@
     text-align: center;
 
     grid-row: 4/span 2;
-    grid-column: 2/span 7;
+    grid-column: 2/span 8;
 
-    padding-top: 0.5em;
+    padding-top: 2.5em;
     padding-bottom: 0.5em;
 
     border-left: var(--border-thin);
@@ -16,19 +16,87 @@
 }
 
 .details > h2 {
-
-    font-weight: 100;
+    font-weight: normal;
+    font-size: 2.5em;
 
 }
 
-.event-name {
+.details p:first-of-type {
+
+    font-size: 2.5em;
+    font-weight: bold;
+
+}
+
+.details > p > .lowercase {
+
+    font-weight: normal;
+
+}
+
+.event-date {
 
     display: flex;
-    justify-content: center;
-    
-    text-align: center;
-    
-    padding-top: 0.5em;
-    
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    font-size: 1.7em;
+
 }
+
+.event-date span:nth-child(1) {
+
+    display: block;
+    position: absolute;
+    margin: -1em
+    
+
+}
+
+.event-date :nth-child(2) {
+
+    position: absolute;
+    
+
+}
+
+.event-date :nth-child(3) {
+
+    font-size: 3em;
+
+    padding-left: 5em;
+    
+
+}
+
+.event-date :nth-child(1), 
+.event-date :nth-child(2),
+.event-date :nth-child(3), 
+.event-date :nth-child(4) {
+
+    padding-right: 2em;
+
+}
+
+
+
+.event-date > span:first-of-type {
+
+    border-left: var(--border-thin);
+    
+    padding-left: -1em;
+
+}
+
+
+.goodbye {
+
+    font-family: var(--accent-font);
+    font-weight: bold;
+    font-size: 1.5em;
+
+    padding-top: 2em;
+
+}
+
 

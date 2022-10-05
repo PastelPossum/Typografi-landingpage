@@ -1,0 +1,20 @@
+.event-name {
+    grid-row: 1;
+    grid-column: 5/11;
+
+    text-align: center;
+    padding-top: 1.5em;
+    
+    font-size: 2.7em;
+
+    
+
+}
+
+.event-name span {
+
+    font-weight: bold;
+
+}
+
+

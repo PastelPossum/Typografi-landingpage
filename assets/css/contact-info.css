@@ -3,7 +3,7 @@
     display: grid;
 
     grid-row: 8;
-    grid-column: 1/span 9;
+    grid-column: 1/span 10;
 
     border-top: thin solid black;
     border-bottom: thin solid black;
